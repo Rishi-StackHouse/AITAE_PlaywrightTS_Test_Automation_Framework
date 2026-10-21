@@ -1,0 +1,107 @@
+Active_Environment: qa
+
+Applications:
+
+ ORGE:
+   dev:
+     url: 90
+     username: "Admin"
+     password: "admin123"
+
+     dbserver: "localhost"
+     dbuser: "root"
+     dbpassword: "root"
+
+     smtpserver: "localhost"
+     smtpuser: "root"
+     smtppassword: "root"
+
+     element_timeout: 8000
+     navigation_Timeout: 15000
+     leftnav_timeout: 15000
+   qa:
+     url: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+     username: "Admin"
+     password: "admin123"
+
+     dbserver: "localhost"
+     dbuser: "root"
+     dbpassword: "root"
+
+     smtpserver: "localhost"
+     smtpuser: "root"
+     smtppassword: "root"
+
+     element_timeout: 
+     navigation_Timeout: 15000
+     leftnav_timeout: 15000
+   prod:
+     url: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+     headless: false
+     username: "Admin"
+     password: "admin123"
+
+     dbserver: "localhost"
+     dbuser: "root"
+     dbpassword: "root"
+
+     smtpserver: "localhost"
+     smtpuser: "root"
+     smtppassword: "root"
+
+     element_timeout: 8000
+     navigation_Timeout: 15000
+     leftnav_timeout: 15000    
+
+ FACETS:
+   dev:
+     url: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+     headless: false
+     username: "Admin"
+     password: "admin123"
+
+     dbserver: "localhost"
+     dbuser: "root"
+     dbpassword: "root"
+
+     smtpserver: "localhost"
+     smtpuser: "root"
+     smtppassword: "root"
+
+     element_timeout: 8000
+     navigation_Timeout: 15000
+     leftnav_timeout: 15000
+   qa:
+     url: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+     headless: false
+     username: "Admin"
+     password: "admin123"
+
+     dbserver: "localhost"
+     dbuser: "root"
+     dbpassword: "root"
+
+     smtpserver: "localhost"
+     smtpuser: "root"
+     smtppassword: "root"
+
+     element_timeout: 8000
+     navigation_Timeout: 15000
+     leftnav_timeout: 15000
+   prod:
+     url: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+     headless: false
+     username: "Admin"
+     password: "admin123"
+
+     dbserver: "localhost"
+     dbuser: "root"
+     dbpassword: "root"
+
+     smtpserver: "localhost"
+     smtpuser: "root"
+     smtppassword: "root"
+
+     element_timeout: 8000
+     navigation_Timeout: 15000
+     leftnav_timeout: 15000 
