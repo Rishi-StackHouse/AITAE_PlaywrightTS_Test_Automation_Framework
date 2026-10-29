@@ -17,7 +17,7 @@
   },
   "include": [
     "playwright.config.ts",
-    "testsuites/**/*.ts",
-    "config/**/*.ts"
+    "Testsuites/**/*.ts",
+    "Config/**/*.ts"
   ]
 }

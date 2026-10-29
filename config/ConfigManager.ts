@@ -10,8 +10,8 @@ dotenv.config({ path: path.resolve(__dirname, '.env') });
 // web creds interface
 export interface WebConfig {
     url: string;
-    username?: string;
-    password?: string;
+    username: string;
+    password: string;
 }
 // db creds interface
 export interface DbConfig {
@@ -26,8 +26,8 @@ export interface SmtpConfig {
 // app config - the credentials an app owns
 export interface AppConfig {
     web: WebConfig;
-    db?: DbConfig;
-    smtp?: SmtpConfig;
+    db: DbConfig;
+    smtp: SmtpConfig;
 }
 
 /* -------------------------------------------------------------------------
@@ -48,7 +48,7 @@ const envCredConfig: Record<AppName, Record<EnvName, AppConfig>> = {
     orge: {
         dev: {
             web: {
-                url: process.env.DEV_ORGE_WEB_URL!,
+                url: String(process.env.DEV_ORGE_WEB_URL),
                 username: process.env.DEV_ORGE_WEB_USERNAME!,
                 password: process.env.DEV_ORGE_WEB_PASSWORD!
             },
