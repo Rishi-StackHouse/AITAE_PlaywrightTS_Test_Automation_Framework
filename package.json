@@ -1,0 +1,28 @@
+{
+  "name": "aitae_playwrightts_test_automation_framework",
+  "version": "1.0.0",
+  "description": "Playwright Typescript Test Automation Framework",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rishi-StackHouse/AITAE_PlaywrightTS_Test_Automation_Framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Rishi-StackHouse/AITAE_PlaywrightTS_Test_Automation_Framework/issues"
+  },
+  "homepage": "https://github.com/Rishi-StackHouse/AITAE_PlaywrightTS_Test_Automation_Framework#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.6"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "pino": "^10.4.0",
+    "pino-pretty": "^13.2.0"
+  }
+}
